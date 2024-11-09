@@ -1,0 +1,1 @@
+ini adalah project belajar saya dengan javascript dengan cara membuat game seperti floppy bird dengan menggunakan canvas html, css, dan javascipt saja. dengan adanya repositories ini dapat membantu banyak orang untuk belajar juga soal javascipt dengan memahami kode-kode yang sudah ada.
