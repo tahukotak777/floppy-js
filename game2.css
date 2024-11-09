@@ -1,0 +1,66 @@
+:root {
+    --bg-primery: rgb(27,27,27);
+    --bg-second: rgb(0, 0, 0);
+    --bg-third: rgb(255, 255, 255);
+    --text-primery: rgb(255, 255, 255);
+    --text-second: rgb(0, 0, 0);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    margin: 0;
+    background-color: var(--bg-second);
+    background-position: center;
+    overflow: hidden;
+}
+
+.btnBack {
+    cursor: pointer;
+    background-color: var(--bg-primery);
+    color: var(--text-primery);
+    border-radius: 20px;
+    width: 35px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    position: absolute;
+    display: flex;
+    top: 50px;
+    right: 50px;
+    transform: scale(1);
+}
+
+.btnBack:hover {
+    color: var(--text-second);
+    background-color: var(--bg-third);
+    border-color: var(--bg-second);
+    transition: .4s;
+}
+
+canvas {
+    background-color: skyblue;
+    position: absolute;
+}
+
+.score {
+    position: absolute;
+    left: 50px;
+    color: wheat;
+    font-size: 4em;
+}
+
+.gameOver {
+    position: relative;
+    font-size: 5em;
+}
+
+.gameStart {
+    position: relative;
+    font-size: 3em;
+}
